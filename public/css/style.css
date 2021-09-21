@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    line-height: 200%;
+}
+
+label {
+    display: block;
+}
+
+.button-group {
+    display: flex;
+}
+
+.error {
+    color: red;
+}
