@@ -26,8 +26,6 @@
     <form action="/articles/{{ $article->id }}" method="post">
         @csrf
         @method('PATCH')
-        <form action="/articles" method="post" value="{{ $article->title }}">
-            @csrf
             <p>
                 <label for="title">論文タイトル</label>
                 <input type="text" name="title" value="{{ old('title', $article->title) }}">
