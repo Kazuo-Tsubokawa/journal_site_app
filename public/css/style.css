@@ -9,3 +9,14 @@ li {
     line-height: 200%;
 }
 
+label {
+    display: block;
+}
+
+.button-group {
+    display: flex;
+}
+
+.error {
+    color: red;
+}

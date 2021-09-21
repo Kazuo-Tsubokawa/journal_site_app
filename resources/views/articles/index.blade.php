@@ -16,6 +16,9 @@
             <li><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></li>
         @endforeach
     </ul>
+    
+    <a href="/articles/create"><input type="submit" value="新規論文投稿"></a>
+
 </body>
 
 </html>
